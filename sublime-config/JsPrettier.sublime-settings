@@ -1,0 +1,9 @@
+{
+	"prettier_cli_path": "/home/alinarch/.yarn/bin/prettier",
+	"node_path": "/usr/bin/node",
+	"auto_format_on_save": true,
+	"prettier_options": {
+		"singleQuote": true,
+		"semi": false
+	}
+}

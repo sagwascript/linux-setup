@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"Babel",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"ImportHelper",
+		"JsPrettier",
+		"MarkdownPreview",
+		"Material Theme",
+		"Materialize",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarMenuAdvanced",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}
