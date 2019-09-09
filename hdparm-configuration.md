@@ -3,7 +3,7 @@
 ### To enable hdparm config on boot
 1. Install package `hdparm` 
 1. Create new file `/etc/udev/rules.d/69-hdparm.rules`
-1. Add `ACTION=="add", SUBSYSTEM=="block", KERNEL=="sda", RUN+="/usr/bin/hdparm -B 254 -S 0 /dev/sda"`
+1. Add `ACTION=="add", SUBSYSTEM=="block", KERNEL=="sda", RUN+="/usr/bin/hdparm -B 128 -S 72 /dev/sda"`
 
 ### To re-enable hdparm config after suspend
 1. Create new file `/usr/lib/systemd/system-sleep/hdparm`
@@ -12,7 +12,7 @@
 	```
 		#!/bin/sh
 		case $1 in post)
-	    	    /usr/bin/hdparm -B 254 -S 0 /dev/sda
+	    	    /usr/bin/hdparm -B 128 -S 72 /dev/sda
 	        	;;
 		esac
 	```
