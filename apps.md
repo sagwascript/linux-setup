@@ -3,6 +3,7 @@
 -   Terminator
 -   Zsh
 -   Oh-my-zsh
+-   Tmux
 -   Sublime Text 3
 -   Google Chrome
 -   Inkscape
