@@ -1,7 +1,7 @@
 ### List of Mandatory Apps
 
 -   Alacritty
--   Zsh
+-   ~~Zsh~~ Bash
 -   Oh-my-zsh
 -   Tmux
 -   Neovim
