@@ -1,9 +1,10 @@
 ### List of Mandatory Apps
 
--   Terminator
+-   Alacritty
 -   Zsh
 -   Oh-my-zsh
 -   Tmux
+-   Neovim
 -   Sublime Text 3
 -   Google Chrome
 -   Inkscape
@@ -11,10 +12,10 @@
 
 ### Apps Config
 
--   Terminator
-    -   Mathias color pallete
-    -   No scrollbar
-    -   No titlebar
+-   Alacritty
+    -   Use corresponding setting
     -   Run Tmux
+-   Neovim
+    -   Material-monokai theme
 -   Oh-my-zsh
     -   Spaceship theme
